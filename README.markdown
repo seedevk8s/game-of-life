@@ -4,7 +4,7 @@ This is a simple demonstration application used in the [Jenkins: The Definitive 
 
 The project is a simple multi-module Maven project. To build the whole project, just run `mvn install` from the root directory.
 
-## Running the game
+## Running the game #
 
 The application is a very simple online version of [Conway's 'game of life'](http://en.wikipedia.org/wiki/Conway's_Game_of_Life). To see what the game does, run `mvn install` as described above, then go to the gameoflife-web directory and run `mvn jetty:run`. The application will be running on http://localhost:9090.
 
@@ -14,7 +14,7 @@ The acceptance tests are written using Webdriver and [Serenity (previously known
 
 ## The book
 
-Streamline software development with Jenkins, the popular Java-based open source tool that has revolutionized the way teams think about Continuous Integration (CI). This complete guide shows you how to automate your build, integration, release, and deployment processes with Jenkins—and demonstrates how CI can save you time, money, and many headaches.
+Streamline software development with Jenkins, the popular Java-based open source tool that has revolutionized the way teams think about Continuous Integration (CI). This complete guide shows you how to automate your build, integration, release, and deployment processes with Jenkins�봞nd demonstrates how CI can save you time, money, and many headaches.
 
 Ideal for developers, software architects, and project managers, Jenkins: The Definitive Guide is both a CI tutorial and a comprehensive Jenkins reference. Through its wealth of best practices and real-world tips, you'll discover how easy it is to set up a CI service with Jenkins.
 
