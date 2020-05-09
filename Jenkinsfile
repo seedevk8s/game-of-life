@@ -28,9 +28,10 @@ pipeline{
                 }                
             }
         }
-        steps('Package'){
-            agent any
+        stage('Package'){
+            agent {label 'Linux_Slave'}
             steps{
+                git 'https://github.com/seedevk8s/game-of-life.git'
                 sh 'mvn package'
             }
         }
